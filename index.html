@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja"  prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="個人制作 Todoリスト">
+        <meta name="keywords" content="個人制作 Todoリスト">
+        <meta property="og:locale" content="ja_JP">
+        <meta property="og:title" content="個人制作 Todoリスト">
+        <meta property="og:description" content="個人制作 Todoリスト">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="Todoリスト">
+        <meta property="og:image" content="./assets/image/ogpimg.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="個人制作 Todoリスト">
+        <meta name="twitter:title" content="個人制作 Todoリスト">
+        <meta name="twitter:image" content="./assets/image/ogpimg.png">
+        <meta name="robots" content="noindex" />
+        <meta name="googlebot" content="noindex" />
+        <meta name="robots" content="nofollow" />
+        <title>個人制作 Todoリスト</title>
+        <link rel="canonical" href="">
+        <link rel="shortcut icon" href="./assets/image/favicon.ico">
+        <!--Include CSS Resources | preload-->
+        <link rel="preload" as="style" href="./assets/css/reset.css">
+        <link rel="preload" as="style" href="./assets/css/style.css">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700">
+        <!--Include CSS Resources | normalload-->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700">
+    </head>
+
+    <body id="body-all" class="body-all">
+        <main class="l-page">
+            <div class="l-container">
+                <div class="content-area">
+                    <h1 class="content-area__title">Todo list</h1>
+
+                    <div class="content-area__box">
+                        <p class="text">old↑ ↓new</p>
+
+                        <ul class="todos todo-list">
+                            <!-- ここにタスクが生成される -->
+                        </ul>
+
+                        <!-- 新規登録フォーム -->
+                        <form class="add form-area">
+                            <input type="text" class="form-area__text" name="add" placeholder="新規タスク">
+                            <input type="submit" value="送信" class="form-area__submit">
+                        </form>
+                    </div>
+
+                    <div class="content-area__other">
+                        <p class="text">HTML5 / CSS / JavaScript</p>
+                        <p class="text">※レスポンシブ対応済</p>
+                        <p class="text">※履歴全削除でのタスククリアを推奨</p>
+                        <p class="text portfolio"><a class="link" href="https://kiku-cha.github.io/portfolio/" target="_blank">ポートフォリオサイト</a>(別窓)</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

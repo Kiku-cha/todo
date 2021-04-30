@@ -1,0 +1,147 @@
+@charset "utf-8";
+body {
+    background: #e0c2cb;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+p,
+a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.35;
+    color: #4b4b4b;
+}
+
+.l-container {
+    display: block;
+    margin: 30px auto;
+    width: 560px;
+}
+
+/* コンテンツ部分 */
+.content-area__title {
+    color: #7d5260;
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.content-area__box {
+    display: block;
+    margin-top: 30px;
+}
+
+.content-area__box .todo-list {
+    background: #fff;
+    border-radius: 30px;
+    display: block;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.content-area__box .todo-list__item {
+    align-items: center;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.content-area__box .todo-list__item:not(:first-child) {
+    border-top: 1px solid #ddd;
+}
+
+.content-area__box .todo-list__item .comment {
+    display: block;
+    width: calc(100% - 40px);
+}
+
+.content-area__box .todo-list__item .d-btn {
+    background: url("../../assets/image/icon-delete.svg");
+    display: block;
+    height: 20px;
+    margin-left: 20px;
+    width: 20px;
+}
+
+.content-area__box .todo-list__item .d-btn:hover {
+    cursor: pointer;
+}
+
+.content-area__box .form-area {
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.content-area__box .form-area__text {
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 490px;
+}
+
+.content-area__box .form-area__submit {
+    background: #ce8ba0;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10px;
+    width: 60px;
+}
+
+.content-area__box .form-area__submit:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+
+.content-area__other {
+    border-top: 1px dashed #c79ba9;
+    display: block;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.content-area__other .portfolio {
+    margin-top: 5px;
+}
+
+.content-area__other .link {
+    color: #333;
+    margin-top: 10px;
+}
+
+.content-area__other .link:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* sp */
+@media screen and (max-width: 767px) {
+    .l-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .content-area__box .todo-list__item {
+        padding: 10px;
+    }
+
+    .content-area__box .form-area {
+        display: block;
+    }
+
+    .content-area__box .form-area__text {
+        width: 100%;
+    }
+
+    .content-area__box .form-area__submit {
+        display: block;
+        margin: 0px auto;
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 50%;
+    }
+}
