@@ -1,5 +1,5 @@
 # 個人制作　Todoリスト
-HTML5 / CSS / JavaScript
+HTML5 / CSS / JavaScript<br>
 レスポンシブ対応済
 
 JavaScriptを使った制作物を作りたい、ということでTodoリストを作成しました。<br>
